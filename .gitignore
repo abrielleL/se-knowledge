@@ -5,11 +5,18 @@ node_modules/
 .env
 .env.local
 
+# Generated knowledge base (re-generate with `node crawl.js`)
+docs/
+
 # Downloaded PDF binaries (large; re-crawl with `node crawl-pdfs.js`)
 pdfs/
 
 # Generated reports
 sync-report.json
+sync-pdfs-report.json
+
+# Manifest (re-generate with `node build-manifest.js`)
+manifest.json
 
 # Local editor / OS cruft
 .DS_Store
