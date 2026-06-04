@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Local environment (never commit secrets / machine-specific paths)
+.env
+.env.local
+
+# Downloaded PDF binaries (large; re-crawl with `node crawl-pdfs.js`)
+pdfs/
+
+# Generated reports
+sync-report.json
+
+# Local editor / OS cruft
+.DS_Store
+*.swp
